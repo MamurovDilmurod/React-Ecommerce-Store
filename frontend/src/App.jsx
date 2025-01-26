@@ -14,7 +14,7 @@ import NotFound from './components/NotFound'
 import './index.css'
 import DetailPage from './pages/DetailPage'
 import { ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'; 
+import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify'
 
 
@@ -32,7 +32,7 @@ function App() {
         <Route path='place-order' element={<PlaceOrder />} />
         <Route path='order' element={<Order />} />
         <Route path="/detail/:id" element={<DetailPage />} />
-        <Route path="/verify" element={<Verify/>} />
+        <Route path="/verify" element={<Verify />} />
       </Route>
       <Route path='*' element={<NotFound />} />
     </Route>
